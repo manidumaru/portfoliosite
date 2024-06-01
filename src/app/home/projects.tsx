@@ -2,9 +2,9 @@ import { CardContent, Card } from "@/ui/card";
 import { Badge } from "@/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
-import devote from '../../public/assets/clash.jpg';
-import baghchal from '../../public/assets/chess.jpg';
-import eventhub from '../../public/assets/event.jpg';
+import devote from '../../../public/assets/clash.jpg';
+import baghchal from '../../../public/assets/chess.jpg';
+import eventhub from '../../../public/assets/event.jpg';
 import { ArrowRight } from "lucide-react";
 
 export function Projects() {

@@ -7,11 +7,11 @@ import { Textarea } from "@/ui/textarea";
 import { Button } from "@/ui/button"
 import Link from "next/link";
 import Image from "next/image";
-import linkedin from "../../public/assets/icons/linkedin.svg";
-import github from "../../public/assets/icons/github.svg";
-import insta from "../../public/assets/icons/insta.svg";
-import twitter from "../../public/assets/icons/twitter.svg";
-import facebook from "../../public/assets/icons/facebook.svg";
+import linkedin from "../../../public/assets/icons/linkedin.svg";
+import github from "../../../public/assets/icons/github.svg";
+import insta from "../../../public/assets/icons/insta.svg";
+import twitter from "../../../public/assets/icons/twitter.svg";
+import facebook from "../../../public/assets/icons/facebook.svg";
 import { useState } from "react";
 
 export function Contact() {

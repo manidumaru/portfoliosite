@@ -21,13 +21,13 @@ export function Navigation() {
         <span className="text-label-foreground">mdr.</span>
       </Link>
       <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-        <Link className="hover:text-background-accent" href="#">
+        <Link className="hover:text-background-accent" href="/">
           Home
         </Link>
         <Link className="hover:text-background-accent" href="/about">
           About
         </Link>
-        <Link className="hover:text-background-accent" href="/profile">
+        <Link className="hover:text-background-accent" href="/projects">
           Projects
         </Link>
         <Link className="hover:text-background-accent" href="#skills">

@@ -6,6 +6,12 @@ import { Contact } from "./home/contact"
 
 export default function Home () {
     return (
-        <Navigation />
+        <div>
+            <Navigation />
+            <Hero />
+            <Projects />
+            <Skills />
+            <Contact />
+        </div>
     )
 }

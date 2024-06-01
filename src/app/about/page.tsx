@@ -1,5 +1,10 @@
+import { Navigation } from "../home/navigation";
+
 export default function About() {
     return (
-        <h1 className="text-blue-500">About</h1>
+        <div>
+            <Navigation />
+            <p className="pt-20 text-2xl text-label-foreground">About</p>
+        </div>
     )
 }
